@@ -1,0 +1,11 @@
+{
+  "_comment": "Copy this file to your project as .mcp.json — Claude Code will connect automatically.",
+  "_docs": "https://docs.anthropic.com/en/docs/claude-code/mcp",
+
+  "mcpServers": {
+    "prompt-lab": {
+      "type": "http",
+      "url": "https://prompt-lab-mcp.up.railway.app/mcp"
+    }
+  }
+}
