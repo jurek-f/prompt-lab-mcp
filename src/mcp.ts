@@ -18,7 +18,7 @@ const testCaseSchema = z.array(
   })
 ).describe('Test cases to run');
 
-function createMcpServer(): McpServer {
+export function createMcpServer(): McpServer {
   const server = new McpServer({ name: 'overhang-mcp', version: '0.1.0' });
 
   // ── Session / workspace ──────────────────────────────────────────────────────
